@@ -24,12 +24,15 @@ Verify that python and pip have been installed using the commands above.
   * Go to the third party drivers section and select your choice of browser driver and download the appropriate version.  
   * I install firefox driver as an example. See firefox driver installation steps below.
   #### Firefox geckodriver installation process
-* Download the zip file for geckodriver from [github.com/mozilla/geckodriver/releases](https://github.com/mozilla/geckodriver/releases)
-* Unzip the tar  file  
- `$ tar -xvf geckodriver-vo.24.0-linux64.tar.gz`
-* Make the unziped file executable   
-`$ chmod +x geckodriver`
-* Add the _geckodriver_ executable to $PATH by moving it to the bin directory _/usr/local/bin_  
+  * Download the zip file for geckodriver from [github.com/mozilla/geckodriver/releases](https://github.com/mozilla/geckodriver/releases)
+  * Unzip the tar  file  
+    `$ tar -xvf geckodriver-vo.24.0-linux64.tar.gz`
+  * Make the unziped file executable   
+    `$ chmod +x geckodriver`
+  * Add the _geckodriver_ executable to $PATH by moving it to the bin directory _/usr/local/bin_  
+   #### ChromeDriver - WebDriver  
+   * Go to [sites.google.com/a/chromium.org/chromedriver/downloads](https://sites.google.com/a/chromium.org/chromedriver/downloads)  for chrome drivers.    
+   * Install the appropraite version and follow the steps outlined under firefox driver setup to integrate chrome driver.  
 
 Same steps can be used to install chrome driver, or opera.  
 

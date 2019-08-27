@@ -100,10 +100,13 @@ Seach for the keywords that your choosen library supports for example, search fo
 * Use the terminal
 On Pycharm IDE inbuilt terminal or Ubuntu terminal window do:  
 `$ robot my-script.robot`  
+
 * To specify where your result logs get written to, do:  
 `$ robot -d some/path my-script.robot `  
+
 * To specify a tagged test to run do:  
 `$ robot -d report/path --include my-script.robot`  
+
 To pass in a variable do :  
 `$ robot -d report/path -variable VAR_NAME:VALUE myscript.robot`  
 You may  use -i and -v inplace of the --include and --variable flag respectively.  
@@ -111,6 +114,7 @@ You may  use -i and -v inplace of the --include and --variable flag respectively
 ## Run Multiple tests defined in a "tests" directory  
 `$ robot -d results/dir tests`  
 This  will run all the _tests_ defined int the tests directory and sub-directory  
+
 `$ robot -d results -N "Title of Suite" tests`  
 The header of the report will be __Title of Suite__  
 
@@ -153,7 +157,7 @@ Double click on the batch file to run the script.
        - Product.robot
        - Cart.robot
    - Results
-   
+
 A page object does not need to be a page. It can be a section in a page if the section is used in many different pages.  
 
 
@@ -163,5 +167,3 @@ A page object does not need to be a page. It can be a section in a page if the s
 
 ### Run a specified test case(tag = current) in the Tests directory and logging the results to the Results directory.  
 `$ robot -d Results -i current Tests`  
-
-  
